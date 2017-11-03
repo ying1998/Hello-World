@@ -22,7 +22,7 @@ architecture behavioral of  caidan1103 is
 			if (catch = '1') then  -- de fen
 					case row_out is                            -- ban dao dian zhen mo kuai ba
 						when"00000011"=>row_out<="11111011";
-						when"00001100"=>row_out<="00101101";
+						when"00001100"=>row_out<="11101101";
 						when"00110000"=>row_out<="10110111";
 						when"11000000"=>row_out<="11011111";
 						when    others=>row_out<="00000000";
